@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding:0
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-img{
+    width: 150px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.first-1 ul{
+     list-style: none;
+     display: flex;
+     margin-top: 50px;
+}
+.first-1 ul li{
+    padding-right: 40px;
+}
+.first-1 ul li a{
+    text-decoration: none;
+    color: #D7D9D9;
+    font-size: 20px;
+    font-weight: 600;
+}
+.first-1 ul li ::after{
+    content: ' ';
+   width: 0;
+   height: 4px;
+   background: black;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+.first-1 ul li :hover::after{
+    width: 100%;
+}
+.first-1 ul li a:hover{
+    color: black;
+}
+.first-2{
+    margin-top: 40px;
+    margin-right: 50px;
+    padding-right: 20px;
+    
+}
+.first-2 button{
+    background-color: #FFD8DB;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.main-1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-1{
+    display: flex;
+}
+.heading{
+    margin-left:110px;
+    font-size: 75px;
+    text-shadow: 4px 4px 10px black;
+    display: flex;
+   
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #5243C0;
+    display: flex;
+    position: relative;
+    top: 142px;
+    margin: 5px;
+}
+.paragraph{
+    margin-left: 110px;
+}
+.btn-1{
+    margin-left: 110px;
+    margin-top: 30px;
+    border: none;
+    background-color: #5243C0;
+    color:  #ffffff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.up-btn{
+    color: #D7D9D9;
+    margin: 40px;
+    border: 2px solid #D7D9D9;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.up-btn:hover{
+    color: black;
+}
+.down-btn{
+    color: #D7D9D9;
+    border: 2px solid #D7D9D9;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.down-btn:hover{
+   color: black;
+}
+.radio-btn{
+    margin-left: 110px;
+    position: absolute;
+    
+}
+.radio-1{
+    cursor: pointer;
+    background-color: ghostwhite;
+    box-shadow: 0 0 50px gainsboro;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.radio-1 label{
+    padding-left: 40px ;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.radio-1 img{
+    padding-top: 10px;
+   padding-left: 10px;
+}
+.radio-1:hover{
+  background-color: white;
+}
+.date{
+    margin-left: 30px;
+    color: #D7D9D9;
+    position: relative;
+    bottom: 10px;
+    display: inline-flex
+}
+.box{
+    width: 20px;
+    height: 10px;
+    background-color: #FED7DA;
+    margin-left: 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.box-1{
+    width: 20px;
+    height: 10px;
+    background-color: #FD6534;
+    margin-left: 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.box-2{
+    width: 20px;
+    height: 10px;
+    background-color:  #9ED095;
+    margin-left: 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.box-3{
+    width: 20px;
+    height: 10px;
+    background-color: #FFE4A0;
+    margin-left: 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
